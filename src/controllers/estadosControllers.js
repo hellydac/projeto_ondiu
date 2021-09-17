@@ -20,7 +20,7 @@ const createEstados = async (req, res) => {
       criadoEm: req.body.criadoEm,
     })
 
-const estadoJaExiste = await Estados.findOne({ 
+/*const estadoJaExiste = await estados.findOne({ 
     estado: req.body.estado,
     cidade: req.body.cidade,
     convenio: req.body.convenio,
@@ -30,7 +30,7 @@ const estadoJaExiste = await Estados.findOne({
    })
   if (estadoJaExiste) {
     return res.status(409).json({ error: 'Estado já cadastrado' })
-  }
+  }*/
 
   try {
     const newEstado = await createEstados.save()
