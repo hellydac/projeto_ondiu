@@ -1,18 +1,32 @@
 {
   "name": "projeto_ondiu",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "API",
+    "diu",
+    "medicos"
+  ],
+  "author": "Héllyda Cavalcanti",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.5",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellydac/projeto_ondiu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hellydac/projeto_ondiu/issues"
+  },
+  "homepage": "https://github.com/hellydac/projeto_ondiu#readme",
+  "description": ""
 }
